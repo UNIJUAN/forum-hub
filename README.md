@@ -108,7 +108,8 @@ Copyforum-hub/
 │   └── test/
 ├── pom.xml
 └── README.md
-Show Image
+![Captura de pantalla 2025-01-19 102713](https://github.com/user-attachments/assets/89ded6fe-c567-4fa0-a4fc-0b20cecc4af4)
+
 Base de Datos
 La estructura de la base de datos se gestiona con Flyway migrations ubicadas en:
 Copysrc/main/resources/db/migration/
