@@ -1,16 +1,17 @@
 # Forum Hub API
-[![La-documentaci-n-completa-de-la-API-est-disponible-en-Swagger.png](https://i.postimg.cc/Qd6srT0q/La-documentaci-n-completa-de-la-API-est-disponible-en-Swagger.png)](https://postimg.cc/Bj1RTXW8)
+
 ## Descripción
 Foro Hub es una API REST que permite la gestión de un foro de discusión especializado. La aplicación permite a los usuarios crear, leer, actualizar y eliminar tópicos de discusión. 
 
 Cada tópico está asociado a un curso específico y mantiene un registro del autor y el estado de la discusión.
 
-## Características
-- Gestión completa de tópicos (CRUD)
-- Autenticación mediante JWT (JSON Web Tokens)
-- Estados de tópicos (NO_RESPONDIDO, RESUELTO, CERRADO)
-- Documentación con Swagger/OpenAPI
-- Paginación y ordenamiento de resultados
+Características
+
+Gestión completa de tópicos (CRUD)
+Autenticación mediante JWT (JSON Web Tokens)
+Estados de tópicos (NO_RESPONDIDO, RESUELTO, CERRADO)
+Documentación con Swagger/OpenAPI
+Paginación y ordenamiento de resultados
 
 ## Tecnologías
 - Java 21
