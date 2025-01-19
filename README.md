@@ -1,19 +1,21 @@
 # Forum Hub API
 
 ## Descripción
+
 Foro Hub es una API REST que permite la gestión de un foro de discusión especializado. La aplicación permite a los usuarios crear, leer, actualizar y eliminar tópicos de discusión. 
 
 Cada tópico está asociado a un curso específico y mantiene un registro del autor y el estado de la discusión.
 
-Características
+## Características
 
-## Gestión completa de tópicos (CRUD)
-Autenticación mediante JWT (JSON Web Tokens)
-Estados de tópicos (NO_RESPONDIDO, RESUELTO, CERRADO)
-Documentación con Swagger/OpenAPI
-Paginación y ordenamiento de resultados
+- Gestión completa de tópicos (CRUD)
+- Autenticación mediante JWT (JSON Web Tokens)
+- Estados de tópicos (NO_RESPONDIDO, RESUELTO, CERRADO)
+- Documentación con Swagger/OpenAPI
+- Paginación y ordenamiento de resultados
 
 ## Tecnologías
+
 - Java 21
 - Spring Boot 3.2.1
 - Spring Security + JWT
@@ -22,6 +24,7 @@ Paginación y ordenamiento de resultados
 - Swagger/OpenAPI para documentación
 
 ## Requisitos Previos
+
 - JDK 21
 - Maven 3.x
 - MySQL
@@ -29,14 +32,13 @@ Paginación y ordenamiento de resultados
 ## Instalación 
 
 ### 1. Clonar el repositorio
+
 ```bash
 git clone https://github.com/UNIJUAN/forum-hub.git
 cd forum-hub
 2. Configurar Base de Datos
-
 Copiar application.properties.example a application.properties
 Actualizar las credenciales en application.properties:
-
 propertiesCopyspring.datasource.url=jdbc:mysql://localhost:3305/forum_hub?createDatabaseIfNotExist=true
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_password
@@ -68,7 +70,6 @@ Content-Type: application/json
     "author": "usuario@ejemplo.com",
     "course": "Spring Boot"
 }
-Show Image
 Listar Tópicos
 httpCopyGET /topics?page=0&size=10
 Authorization: Bearer {token}
@@ -109,8 +110,6 @@ Copyforum-hub/
 │   └── test/
 ├── pom.xml
 └── README.md
-![Captura de pantalla 2025-01-19 102713](https://github.com/user-attachments/assets/89ded6fe-c567-4fa0-a4fc-0b20cecc4af4)
-
 Base de Datos
 La estructura de la base de datos se gestiona con Flyway migrations ubicadas en:
 Copysrc/main/resources/db/migration/
@@ -128,8 +127,8 @@ Endpoints protegidos requieren token válido en header: Authorization: Bearer {t
 
 Estado del Proyecto
 
- Estructura base implementada
- Configuración de seguridad JWT
- CRUD de tópicos
- Documentación Swagger
- Migraciones Flyway
+✅ Estructura base implementada
+✅ Configuración de seguridad JWT
+✅ CRUD de tópicos
+✅ Documentación Swagger
+✅ Migraciones Flyway
