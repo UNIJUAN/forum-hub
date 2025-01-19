@@ -7,7 +7,7 @@ Cada tópico está asociado a un curso específico y mantiene un registro del au
 
 Características
 
-Gestión completa de tópicos (CRUD)
+## Gestión completa de tópicos (CRUD)
 Autenticación mediante JWT (JSON Web Tokens)
 Estados de tópicos (NO_RESPONDIDO, RESUELTO, CERRADO)
 Documentación con Swagger/OpenAPI
