@@ -90,7 +90,7 @@ Authorization: Bearer {token}
 Documentación API
 La documentación completa de la API está disponible en Swagger:
 Copyhttp://localhost:8080/swagger-ui.html
-Show Image
+[![La-documentaci-n-completa-de-la-API-est-disponible-en-Swagger.png](https://i.postimg.cc/Qd6srT0q/La-documentaci-n-completa-de-la-API-est-disponible-en-Swagger.png)](https://postimg.cc/Bj1RTXW8)
 Estructura del Proyecto
 Copyforum-hub/
 ├── src/
