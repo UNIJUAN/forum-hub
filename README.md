@@ -1,5 +1,5 @@
 # Forum Hub API
-
+[![La-documentaci-n-completa-de-la-API-est-disponible-en-Swagger.png](https://i.postimg.cc/Qd6srT0q/La-documentaci-n-completa-de-la-API-est-disponible-en-Swagger.png)](https://postimg.cc/Bj1RTXW8)
 ## Descripción
 Foro Hub es una API REST que permite la gestión de un foro de discusión especializado. La aplicación permite a los usuarios crear, leer, actualizar y eliminar tópicos de discusión. 
 
